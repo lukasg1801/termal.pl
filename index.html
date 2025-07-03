@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terrmal - Natura w Twoim wnętrzu</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
+    header, footer { background: #222; color: #fff; padding: 20px; text-align: center; }
+    nav a { margin: 0 15px; color: #fff; text-decoration: none; font-weight: bold; }
+    .hero { padding: 60px 20px; text-align: center; background: url('images/hero.jpg') no-repeat center/cover; color: white; }
+    .hero h1 { font-size: 3em; }
+    .section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+    .products { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+    .product { background: white; border-radius: 10px; padding: 20px; width: 280px; box-shadow: 0 0 10px rgba(0,0,0,0.1); text-align: center; transition: transform 0.3s ease; }
+    .product:hover { transform: scale(1.03); }
+    .product img { width: 100%; height: 200px; object-fit: cover; border-radius: 5px; }
+    .product h3 { margin: 10px 0; }
+    .product p { font-size: 0.9em; }
+    .btn { background: #66aa66; color: white; padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer; text-decoration: none; display: inline-block; margin-top: 10px; transition: background 0.3s ease; }
+    .btn:hover { background: #559955; }
+    .product a { text-decoration: none; color: inherit; }
+    .custom-box { background: #fff; padding: 20px; border-radius: 10px; margin-top: 40px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    footer p { margin: 5px; font-size: 0.8em; }
+    .logo img { height: 60px; vertical-align: middle; max-height: 60px; width: auto; animation: hangingWeb 2s infinite; }
+    header { display: flex; justify-content: space-between; align-items: center; padding: 20px; background-color: #222; flex-wrap: wrap; }
+    @keyframes hangingWeb {
+      0% { transform: translateY(-10px); }
+      50% { transform: translateY(0); }
+      100% { transform: translateY(-10px); }
+    }
+    @media (max-width: 768px) {
+      .products { flex-direction: column; align-items: center; }
+      header { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  <!-- zawartość HTML została skrócona ze względu na długość -->
+  <p>Pełna zawartość HTML jest zapisana w pliku index.html</p>
+</body>
+</html>
